@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #fff6ea; color: #221f1f; }
+a { color: inherit; text-decoration: none; }
+button, input, textarea, select { font: inherit; }
+.brand-gradient { background: linear-gradient(135deg, #ff8a2a 0%, #f05a28 52%, #ff4f3a 100%); }
+.text-gradient { background: linear-gradient(135deg, #f05a28, #ff4f3a); -webkit-background-clip: text; color: transparent; }
+.safe-logo { object-fit: contain; padding: 0.2rem; }
